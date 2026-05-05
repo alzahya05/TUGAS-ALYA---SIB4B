@@ -26,7 +26,7 @@ export default function learn() {
                     <p>Codding</p>
                 </div>
                 <div>
-                    <h1 className="text-3x1 font-bold">Python</h1>   
+                    <h1 className="text-3x1 font-bold"> Python </h1>   
                     <p> 2 day ago</p>                
             </div>
         </div>  
