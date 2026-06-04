@@ -1,28 +1,63 @@
-export default function latihan1 () {
-    return (
-        <div className="bg-purple h-screen flex items-center justify-center flex items-between justify between ">
-            <div className="bg-white-300 h-60 w-60 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
-                <div className="bg-blue-200 w-60 flex itmes-center">
+export default function Testes() {
+  return (
+    <div className="h-screen flex flex-col justify-center">
+      
+      <div className="bg-green-200 h-screen w-60">
 
-                </div>
-                <div className="flex gap-4">
-                    <div className="flex-col text-black-950">
-                    <p>Explore</p>
-                    <div>
-                    </div>
-                    <h1 className="text-3xl fontbold">Nadine</h1>
-                    <h1 className="flex justify-between items-end"></h1>
-                        <p>iya dong</p>
-                        
-                        <div>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
+        <div className="flex items-center gap-4 p-4">
+          <img src="grab.png" className="w-12 h-12 rounded-full" />
+          <p className="text-black font-serif">Grab Indonesia</p>
         </div>
-    );
+
+        <div className="flex flex-col gap-4 p-5">
+          <p className="text-black font-serif">Menu</p>
+
+          <div className="flex items-center gap-2">
+            <img src="burger.svg" className="w-6 h-6" />
+            <h1 className="font-bold text-black">Food and Drink</h1>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <img src="car.svg" className="w-6 h-6" />
+            <h1 className="font-bold text-black">Mobil</h1>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <img src="motorbike.svg" className="w-6 h-6" />
+            <h1 className="font-bold text-black">Sepeda motor</h1>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 p-5">
+          <p className="text-black font-serif">Transaksi</p>
+
+          <div className="flex items-center gap-2">
+            <img src="cash.svg" className="w-6 h-6" />
+            <h1 className="font-bold text-black">Gopay</h1>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2 px-5">
+          <img src="transfer.svg" className="w-6 h-6" />
+          <h1 className="font-bold text-black">Transfer</h1>
+        </div>
+
+        <div className="flex items-center gap-2 px-5 py-4">
+          <img src="history.svg" className="w-6 h-6" />
+          <h1 className="font-bold text-black">Riwayat Pembelian</h1>
+        </div>
+
+        <div className="flex flex-col gap-4 p-5">
+          <p className="text-black font-serif">Pengaturan</p>
+
+          <div className="flex items-center gap-2">
+            <img src="transfer.svg" className="w-6 h-6" />
+            <h1 className="font-bold text-black">Transfer</h1>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  );
 }
